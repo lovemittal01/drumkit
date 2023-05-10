@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg flex">
+
+        <div class="headline flex">
+            <div class="drum">Drum</div>
+            <img src="drum.png" alt="drum picture">
+            <div class="kit">Kit</div>
+        </div>
+        <div class="keys flex">
+            <div data-key="87" class="box flex">w</div>
+            <div data-key="65" class="box flex">a</div>
+            <div data-key="83" class="box flex">s</div>
+            <div data-key="68" class="box flex">d</div>
+            <div data-key="74" class="box flex">j</div>
+            <div data-key="75" class="box flex">k</div>
+            <div data-key="76" class="box flex">l</div>
+
+        </div>
+        <div class="footer">Made with ❤️ in India.</div>
+
+        <audio data-key="87" src="Sounds/clap.mp3"></audio>
+        <audio data-key="65" src="Sounds/boom.mp3"></audio>
+        <audio data-key="83" src="Sounds/hihat.mp3"></audio>
+        <audio data-key="68" src="Sounds/kick.mp3"></audio>
+        <audio data-key="74" src="Sounds/ride.mp3"></audio>
+        <audio data-key="75" src="Sounds/tom.mp3"></audio>
+        <audio data-key="76" src="Sounds/snare.mp3"></audio>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
