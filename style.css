@@ -50,23 +50,23 @@
     width: 800px;
 }
 
-.playing {
-    transform: scale(1.2);
-    border: 5px solid #FFE600;
-    box-shadow: 0 0 1rem #FFE600;
-}
-
 .box {
     display: flex;
     background-color: white;
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    /* border: 5px solid #404B68; */
+    border: 5px solid #404B68;
     color: #E00464;
     font-family: 'Suez One', serif;
     font-size: 300%;
     justify-content: center;
     align-items: end;
     transition: all 0.07s ease;
+}
+
+.playing {
+    transform: scale(1.2);
+    border: 5px solid #FFE600;
+    box-shadow: 0 0 1rem #FFE600;
 }
